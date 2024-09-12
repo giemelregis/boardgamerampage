@@ -1,0 +1,20 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	"start": "http-server -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giemelregis/boardgamerampage.git"
+  },
+  "author": "Giemel Regis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giemelregis/boardgamerampage/issues"
+  },
+  "homepage": "https://github.com/giemelregis/boardgamerampage#readme",
+  "description": ""
+}
