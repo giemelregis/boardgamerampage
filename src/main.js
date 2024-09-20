@@ -1,8 +1,9 @@
 export { app }
 import * as Board from "./board.js";
+import * as Pieces from "./pieces.js";
 
 const app = new PIXI.Application();
-await app.init({ width: 640, height: 540, backgroundColor: "3b3c3d"});
+await app.init({ width: 640, height: 560, backgroundColor: "3b3c3d"});
 document.body.appendChild(app.canvas);
 
 // TODO: this is just a test template
@@ -20,5 +21,4 @@ const board_data = {
 
 
 Board.generate(board_data);
-
-
+Pieces.generatePiece(); // TODO : template, but also implement JSON for datas soon

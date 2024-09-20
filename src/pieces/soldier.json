@@ -1,0 +1,14 @@
+{ 
+	"name": "Soldier",
+	"movement": "U",
+	"special_rules": {
+		"initial_move": "UU"
+	},
+
+	"assets": {
+		"main": "/assets/Soldier/",
+		"idle": "/assets/Soldier/Soldier.png",
+		"attack01": "/assets/Solider/Soldier-Attack01.png",
+		"walk": "assets/Soldier/Soldier-Walk.png"
+	}
+}
